@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background: black;
+  width: 28%;
+  margin-top: 125px;
+  padding: 10px 20px;
+  text-align: center;
+  height: 250px;
+}
+
+p {
+  color: #DAA520;
+  font-size: 20px;
+}
+
+button {
+  background: #DAA520;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.message {
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  color: black;
+}
+
+p {
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  color: #DAA520;
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    width: 90%;
+  }
+}
